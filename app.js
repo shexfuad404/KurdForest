@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // --- MongoDB Connection ---
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/kurdforest', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://fuadgamers19_db_user:12341234@sloth.zelum5o.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('✅ Connected to MongoDB'))
